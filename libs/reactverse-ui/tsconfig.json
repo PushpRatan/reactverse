@@ -5,6 +5,15 @@
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@reactverse-ui/libs": [
+        "libs/reactverse-ui/src/index.ts"
+      ],
+      "@reactverse-ui/libs/*": [
+        "libs/reactverse-ui/src/*"
+      ]
+    },
     "types": ["vite/client"]
   },
   "files": [],
