@@ -1,3 +1,2 @@
 export * from './lib/reactverse-ui';
-export * from "./ui/button";
-// export * from "./ui/dialog";
+export * from "./lib/component/button/button";
