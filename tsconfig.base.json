@@ -15,9 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@reactverse-ui": [
-        "libs/reactverse-ui/src/index.ts"
-      ]
+      "@reactverse-ui": ["libs/reactverse-ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
